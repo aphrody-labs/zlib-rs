@@ -2121,7 +2121,7 @@ pub const extern "C" fn zError(err: c_int) -> *const c_char {
 
 macro_rules! libz_rs_sys_version {
     () => {
-        concat!("1.3.0-zlib-rs-", env!("CARGO_PKG_VERSION"), "\0")
+        concat!("1.3.2.zlib-rs-", env!("CARGO_PKG_VERSION"), "\0")
     };
 }
 
